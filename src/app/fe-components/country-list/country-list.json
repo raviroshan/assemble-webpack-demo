@@ -1,0 +1,46 @@
+{
+  "sampleCountries": [
+    {
+      "countryName": "Afghanistan",
+      "countryCapital": "Kabul"
+    },
+    {
+      "countryName": "Australia",
+      "countryCapital": "Canberra"
+    },
+    {
+      "countryName": "India",
+      "countryCapital": "New Delhi"
+    },
+    {
+      "countryName": "Ireland",
+      "countryCapital": "Dublin"
+    },
+    {
+      "countryName": "Israel",
+      "countryCapital": "Jerusalem"
+    },
+    {
+      "countryName": "Italy",
+      "countryCapital": "Roma"
+    },
+    {
+      "countryName": "United Kingdom",
+      "countryCapital": "London"
+    },
+    {
+      "countryName": "United States",
+      "countryCapital": "Washington"
+    }
+  ],
+  "sampleCollection": [
+    "Amy Wong",
+    "Bender",
+    "Dr. Zoidberg",
+    "Fry",
+    "Hermes Conrad",
+    "Leela",
+    "Professor Farnsworth",
+    "Scruffy"
+  ]
+}

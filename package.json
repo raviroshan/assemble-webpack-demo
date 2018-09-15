@@ -1,0 +1,25 @@
+{
+  "name": "assemble-webpack-demo",
+  "version": "1.0.0",
+  "description": "Code repo demonstrating the use of assemble-webpack to generate HTML files using Handlebars and Assemble.io",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "web": "webpack-dev-server"
+  },
+  "keywords": [
+    "assemble-webpack",
+    "webpack",
+    "assemble",
+    "handlebars"
+  ],
+  "author": "Ravi Roshan",
+  "license": "MIT",
+  "devDependencies": {
+    "assemble-webpack": "^3.1.0",
+    "handlebars-helpers": "^0.10.0",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  }
+}

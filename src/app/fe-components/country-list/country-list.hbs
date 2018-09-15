@@ -1,0 +1,25 @@
+<article class="country-list">
+  <h3>Country List Component</h3>
+  <p>
+    Country List with capital
+    <ul>
+      {{#each sampleCountries}}
+      <li>{{ uppercase countryName}} - {{countryCapital}}</li>
+      {{/each }}
+    </ul>
+  </p>
+
+  <p>
+    {{!-- Using Handlebars helpers : https://github.com/helpers/handlebars-helpers --}}
+    <strong>Handlebars helpers </strong> - Last Item : {{last sampleCollection}}
+  </p>
+
+  <p>
+    {{!-- Using custom helpers : http://assemble.io/docs/Custom-Helpers.htmls --}}
+    <strong>Custom Helper example</strong> - We need to reverse the word "palindrome": {{reverseWord "palindrome"}}.
+  </p>
+
+  {{!-- logging-helpers : https://github.com/helpers/logging-helpers --}}
+  {{ log }}
+
+</article>

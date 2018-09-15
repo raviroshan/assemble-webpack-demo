@@ -1,0 +1,18 @@
+---
+title: Page1
+type: page
+layout: default
+description: First Page of your site
+---
+
+<div class="page-1">
+  <h1>First Page is</h1>
+
+  {{!-- Importing User Partial/Component and passing values --}}
+  {{> user userName="Ravi" favLanguage="JavaScript"}}
+  {{> user userName="John" favLanguage="Python"}}
+
+  {{!-- Importing country-list and passing JSON file as data --}}
+  {{> country-list country-list}}
+
+</div>
